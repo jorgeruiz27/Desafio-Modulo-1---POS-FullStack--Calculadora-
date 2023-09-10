@@ -1,0 +1,36 @@
+#inputCalculadora{
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 0 none;
+    outline: 0;
+    background-color:rgb(242, 244, 246);
+}
+
+.areaCalculadora{
+    width: 350px;    
+    margin: 30px auto;
+    padding: 20px;
+    background-color:rgb(242, 244, 246);
+    border-radius: 1em;
+}
+
+.row div{
+    padding: 2px;
+}
+
+.botaoGenerico{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+    color: black;    
+}
+
+.botaoResultado{
+    width: 100%;
+    height: 50px;    
+}

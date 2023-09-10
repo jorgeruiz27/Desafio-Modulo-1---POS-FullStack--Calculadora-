@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container areaCalculadora">
+      
+        <div class="row">
+            <input id="inputCalculadora" type="text" value="0" readonly />
+        </div>
+
+        <div class="row justify-content-end">
+            <div class="col-3">
+                <button id="btnOperPorc" type="button" class="btn btn-outline-dark botaoGenerico">%</button>
+            </div>
+            <div class="col-3">
+                <button id="btnOperCE" type="button" class="btn btn-outline-dark botaoGenerico">CE</button>
+            </div>
+            <div class="col-3">
+                <button id="btnLimpar" type="button" class="btn btn-outline-dark botaoGenerico">C</button>
+            </div>
+            <div class="col-3">
+                <button id="btnApagar" type="button" class="btn btn-outline-dark botaoGenerico">
+                    <img width="20" height="20" src="./img/apagar.png" />
+                </button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-3">
+                <button id="btnDivX" type="button" class="btn btn-outline-dark botaoGenerico"><img width="20" height="20"  src="./img/DivX.png"></button>
+            </div>
+            <div class="col-3">
+                <button id="btnQuadrado" type="button" class="btn btn-outline-dark botaoGenerico">X&#178;</button>
+            </div>
+            <div class="col-3">
+                <button id="btnRaizQ" type="button" class="btn btn-outline-dark botaoGenerico"><img width="20" height="20"  src="./img/raizQ1.png"></button>
+            </div>
+            <div class="col-3">
+                <button id="btnDividir" type="button" class="btn btn-outline-dark botaoGenerico">/</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button id="btnValor7" type="button" class="btn btn-outline-dark botaoGenerico">7</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor8" type="button" class="btn btn-outline-dark botaoGenerico">8</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor9" type="button" class="btn btn-outline-dark botaoGenerico">9</button>
+            </div>
+            <div class="col-3">
+                <button id="btnMultiplicar" type="button" class="btn btn-outline-dark botaoGenerico">x</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button id="btnValor4" type="button" class="btn btn-outline-dark botaoGenerico">4</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor5" type="button" class="btn btn-outline-dark botaoGenerico">5</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor6" type="button" class="btn btn-outline-dark botaoGenerico">6</button>
+            </div>
+            <div class="col-3">
+                <button id="btnSubtrair" type="button" class="btn btn-outline-dark botaoGenerico">-</button>
+            </div>
+        </div>
+
+        <div class="row">        
+            <div class="col-3">
+                <button id="btnValor1" type="button" class="btn btn-outline-dark botaoGenerico">1</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor2" type="button" class="btn btn-outline-dark botaoGenerico">2</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor3" type="button" class="btn btn-outline-dark botaoGenerico">3</button>
+            </div>
+            <div class="col-3">
+                <button id="btnSoma" type="button" class="btn btn-outline-dark botaoGenerico">+</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+                <button id="btnValorInv" type="button" class="btn btn-outline-dark botaoGenerico">+/-</button>
+            </div>
+            <div class="col-3">
+                <button id="btnValor0" type="button" class="btn btn-outline-dark botaoGenerico">0</button>
+            </div>
+            <div class="col-3">
+                <button id="btnPonto" type="button" class="btn btn-outline-dark botaoGenerico">,</button>
+            </div>
+            <div class="col-3">
+                <button id="btnResultado" type="button" class="btn btn-primary botaoResultado">=</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/script.js"></script>
+  </body>
+</html>
